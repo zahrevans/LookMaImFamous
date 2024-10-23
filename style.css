@@ -1,12 +1,18 @@
-body{
-
+body {
+  background-color: black;
+  padding-top: 100px;
 }
-.hero-image {
-    background: url('https://images.axios.com/0_kX87EYg3dR2EPWopTDOuFok6k=/0x0:1920x1080/1920x1080/filters:no_upscale()/2020/01/31/1580484612606.gif') no-repeat center center;
-    background-size: cover;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(0, 0, 0);
+h1 {
+  color: white;
+  font-family: "chippewa-falls", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 65px;
+}
+p {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
 }

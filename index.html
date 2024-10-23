@@ -1,4 +1,4 @@
-$<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Title</title>
@@ -16,6 +16,7 @@ $<!DOCTYPE html>
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -101,11 +102,32 @@ $<!DOCTYPE html>
       </nav>
     </header>
     <main>
-      <section id="home" class="hero-image text-center">
-        <div class="container row">
-          <div class=""></div>
+      <div class="container-fluid">
+        <!-- Header/Intro Section -->
+        <div class="row text-center d-flex justify-content-center py-3">
+          <div
+            class="col-12 col-md-4 d-flex align-items-center animate__animated animate__lightSpeedInLeft"
+          >
+            <div>
+              <h1>Welcome to My Gallery Site</h1>
+              <p class="d-none d-md-block">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+                at eos. Commodi esse tempore adipisci repellendus. Unde natus
+                ipsum, assumenda voluptatem recusandae ratione suscipit quia
+                dolorum animi incidunt quis fuga.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-4 animate__animated animate__lightSpeedInRight"
+          >
+            <div>
+              <img src="https://picsum.photos/id/200/400" alt="" />
+            </div>
+          </div>
         </div>
-      </section>
+
     </main>
     <footer>
       <!-- place footer here -->
