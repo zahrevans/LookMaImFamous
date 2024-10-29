@@ -16,3 +16,8 @@ p {
   font-style: normal;
   font-size: 25px;
 }
+br {
+  display: block;
+  margin: 100px 0;
+  line-height: 150%;
+}
