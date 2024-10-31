@@ -64,13 +64,19 @@
       href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://cdn1.iconfinder.com/data/icons/education-941/512/Atom.png"
+              width="10%"
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -89,7 +95,7 @@
           >
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                Click To Navigate
               </h5>
               <button
                 type="button"
@@ -98,58 +104,21 @@
                 aria-label="Close"
               ></button>
             </div>
+
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+                <li><a class="nav-item" href="#btp">Back To Top</a></li>
+                <li><a class="nav-item" href="#el">Early Life</a></li>
+                <li><a class="nav-item" href="#aac">Accomplishments & Contributions </a></li>
+                <li><a class="nav-item" href="#ch">Challenges</a></li>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <div class="container-fluid">
+      <br id="btp"/>
+      <div class="container-fluid" >
         <!-- Header/Intro Section -->
         <div class="row text-center d-flex justify-content-center py-2">
           <div
@@ -176,12 +145,12 @@
           </div>
         </div>
       </div>
-      <br /><br /><br /><br />
+      <br /><br /><br />
 
       <h2 class="animate__animated animate__fadeInUp">Scroll For More!!!</h2>
       <hr />
       <br />
-      <br /><br /><br /><br /><br />
+      <br /><br /><br id="el" /><br /><br />
 
       <div data-aos="fade-right"><h3>Early Life</h3></div>
       <br /><br />
@@ -220,12 +189,12 @@
           </div>
         </div>
       </div>
-      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br id="aac" /><br /><br /><br />
       <h3 data-aos="fade-right">Accomplishments & Contributions</h3>
-      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br />
       <!--Start of carousel card-->
       <section class="pt-5 pb-5" data-aos="zoom-in">
-        <div class="container" >
+        <div class="container">
           <div class="row">
             <div class="col-6">
               <h3 class="mb-3">Click The Arrows to Learn More</h3>
@@ -464,13 +433,16 @@
         </div>
       </section>
       <!--End of Carousel-->
-      <br /><br /><br />
+      <br id="ch"/><br /><br />
       <!-- Challenges -->
       <h3 data-aos="fade-right">Challenges</h3>
       <br /><br /><br />
 
-      <div class="container-fluid" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom">
+      <div
+        class="container-fluid"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
         <div class="row text-center d-flex justify-content-center py-2">
           <div
             class="col-12 col-md-4 d-flex align-items-center animate__animated animate__lightSpeedInLeft"
