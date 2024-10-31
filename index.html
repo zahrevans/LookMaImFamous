@@ -37,13 +37,14 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
     ></script>
     <link rel="stylesheet" href="style.css" />
-
+    <!--css ANimations-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!--Scroll Animations-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -177,13 +178,14 @@
       </div>
       <br /><br /><br /><br />
 
-      <h2>Scroll For More!!!</h2>
+      <h2 class="animate__animated animate__fadeInUp">Scroll For More!!!</h2>
       <hr />
       <br />
       <br /><br /><br /><br /><br />
 
-      <h3>Early Life</h3>
-      <div class="container-fluid">
+      <div data-aos="fade-right"><h3>Early Life</h3></div>
+      <br /><br />
+      <div class="container-fluid" data-aos="flip-left">
         <!-- Early Life -->
         <div class="row text-center d-flex justify-content-center py-2">
           <div
@@ -219,11 +221,11 @@
         </div>
       </div>
       <br /><br /><br /><br /><br /><br />
-      <h3>Accomplishments & Contributions</h3>
+      <h3 data-aos="fade-right">Accomplishments & Contributions</h3>
       <br /><br /><br /><br /><br /><br />
       <!--Start of carousel card-->
-      <section class="pt-5 pb-5">
-        <div class="container">
+      <section class="pt-5 pb-5" data-aos="zoom-in">
+        <div class="container" >
           <div class="row">
             <div class="col-6">
               <h3 class="mb-3">Click The Arrows to Learn More</h3>
@@ -461,12 +463,14 @@
           </div>
         </div>
       </section>
-      <br /><br /><br />
-      <h3>Challenges</h3>
-      <br /><br /><br />
       <!--End of Carousel-->
-      <div class="container-fluid">
-        <!-- Challenges -->
+      <br /><br /><br />
+      <!-- Challenges -->
+      <h3 data-aos="fade-right">Challenges</h3>
+      <br /><br /><br />
+
+      <div class="container-fluid" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
         <div class="row text-center d-flex justify-content-center py-2">
           <div
             class="col-12 col-md-4 d-flex align-items-center animate__animated animate__lightSpeedInLeft"
@@ -535,5 +539,9 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
